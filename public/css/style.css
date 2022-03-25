@@ -1,0 +1,95 @@
+:root {
+    --prim: yellow;
+    --sec: gray;
+    --tirt: dodgerblue;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--sec);
+}
+
+h4 {
+    color: var(--prim)
+}
+
+.header{
+    padding: 20px 0;
+}
+
+.h1 {
+    color: var(--prim);
+    font-size: calc(38px + (56 - 38) * ((100vw - 300px)/ (1600 - 300)));
+    text-transform: uppercase;
+}
+
+a {
+    color: var(--tirt);
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: var(--tert);
+}
+
+p{
+    color: var(--tirt)
+}
+
+.top-nav a{
+    color: var(--prim);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.5s ease;
+}
+
+.top-nav a:hover {
+    color: var(--tirt);
+}
+
+.home-img {
+    display: block;
+    margin: 50px auto;
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px var(--tirt);
+}
+
+.header-h1 {
+    color: var(--prim)
+}
+
+h2 {
+    color: var(--prim);
+}
+
+h3 {
+    font-size: 15px;
+    color: var(--prim);
+    text-align: right;
+}
+
+.single-header{
+    color: var(--prim);
+}
+
+
+.figcap {
+    color: var(--sec)
+}
+
+footer p {
+    color: var(--tirt)
+}
+
+aside {
+    width: 50%;
+}
+
+.single-li {
+    color: var(--prim);
+    background: var(--sec);
+    border-color: var(--tirt)
+}

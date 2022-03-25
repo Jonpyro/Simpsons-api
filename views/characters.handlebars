@@ -1,0 +1,16 @@
+<main class="main main-characters container">
+    <section class="section section-main">
+        <div class="row d-flex text-center">
+            {{#each data}}
+            <div class="col-md-3">
+                <a href="/characters/{{id}}">
+                <img src="https://via.placeholder.com/150x200" alt="placeholder image" class="img-fluid">
+                <h4>{{data.name.first}} {{data.name.last}}</h4>
+                </a>
+                <p>For more information <a href="{{data.bio.url}}">Click Here</a></p>
+            </div>
+            {{/each}}
+
+        </div>
+    </section>
+</main>
